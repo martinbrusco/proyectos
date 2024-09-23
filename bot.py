@@ -20,6 +20,8 @@ def download_audio(message):
         bot.reply_to(message, "La URL proporcionada no es válida. Asegúrate de que sea una URL de YouTube.")
         return
 
+    
+
     # Obtén información del video
     try:
         video_title = video.title
